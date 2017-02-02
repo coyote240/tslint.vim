@@ -9,6 +9,7 @@ INTRODUCTION																												*jshint*
 This plugin is a front for tslint.
 
 Based almost entirely upon jslint.vim by Andreas Wålm.
+https://github.com/walm/jshint.vim
 
 This plugin will allow you to run tslint from vim, and shows the results
 in a split window.
