@@ -1,0 +1,24 @@
+*jshint.vim* A plugin that integrates tslint with Vim
+============================================================================
+Author: Adam A.G. Shamblin <tutanota+tslintvim@tutanota.com> *tslint-author*
+License: See *LICENSE* file
+
+============================================================================
+INTRODUCTION																												*jshint*
+
+This plugin is a front for tslint.
+
+Based almost entirely upon jslint.vim by Andreas Wålm.
+
+This plugin will allow you to run tslint from vim, and shows the results
+in a split window.
+
+:TSLint {file}
+
+	Test {file} with tslint.
+	If {file} not provided it uses current file.
+
+	Behaves just like the |:grep| command, but will open the |Quickfix|
+	window for you.
+
+Press 'q' to close |Quickfix| window.
