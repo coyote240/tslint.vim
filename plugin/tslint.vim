@@ -16,7 +16,7 @@ function! s:TSLint(cmd, args)
 
 	try
 		let &grepprg = g:tslintprg
-		let &grepformat = "%f: line %l\\,\ col %c\\, %m,%-G,%-G%s error,%-G%s errors"
+		let &grepformat = "%f\[%l, %c\]: %m"
 		let cmdline = [a:cmd]
 		if exists("g:tslintconfig")
 			call add(cmdline, '--config')
